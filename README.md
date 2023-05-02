@@ -1,11 +1,7 @@
 # Lite-SRGAN and Lite-UNet: Towards fast and accurate image super-resolution, segmentation and localization for plant leaf diseases
 
 
-<hr />
 
-**Abstract:** *Complex deep convolutional networks are usually designed to achieve state-of-the-art results. Such networks require powerful computing resources and can’t work efficiently on resource-constrained devices specially for real-time use. To address these challenges, this paper introduces a full lightweight approach for segmentation, localization, super-resolution and classification tasks. On this basis, we propose two novel lightweight architectures named Lite-UNet and Lite-SRGAN. We validated the effectiveness of our proposed networks on the large publicly available Plant Village dataset. Lite-UNet network is used for performing segmentation and localization tasks, while Lite-SRGAN network is used for performing the super-resolution task. The proposed Lite-UNet outperforms U-Net with a slight gain of 0.06% and 0.12% for dice coefficient and IoU respectively while achieving a significant reduction of 15.9x, 25x and 6.6x in terms of parameters, FLOPs and inference time respectively. In addition, the proposed LiteSRGAN achieves comparable qualitative and quantitative results compared to SRGAN with a significant reduction of 7.5x, 7.8x and 2.7x in terms of parameters, FLOPs and inference time respectively when upsampling the low-resolution images from 64x64 to 256x256 (4x upscaling). Similarly, it achieves a reduction of 7.1x, 11.2x and 1.9x when upsampling from 128x128 to 256x256 (2x upscaling).*
-
-<hr />
 
 ## Lite-SRGAN
 ## Lite-SRGAN architecture
