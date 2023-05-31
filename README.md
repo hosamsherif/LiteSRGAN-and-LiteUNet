@@ -3,7 +3,13 @@
 
 
 
-## Lite-SRGAN
+# Lite-SRGAN
+<p float="left">
+  <img src="images/LiteSRGAN_inference_1.gif" width=500 />
+  <img src="images/LiteSRGAN_inference_2.gif" width=500 />
+  </p>
+
+
 ## Lite-SRGAN architecture
 
 ![images](images/Lite_SRGAN.png)
@@ -37,7 +43,7 @@ python main.py --images_dir "/path/to/images/directory" \
 * ``` epochs ``` if you want to use the same number of training update steps/iterations as stated in the paper, you can get the number of iterations using this equation, number of training steps/iterations = (epochs x number of training samples) / batch_size
  
 
-## Lite-UNet
+# Lite-UNet
 ## Lite-UNet architecture
 
 <p align="center">
@@ -61,7 +67,7 @@ python main.py --train_data "/path/to/training/images" \
 --epochs 20 --output_dir "/path/to/save/Lite-UNet/model"
 ```
 
-## Full Methodology
+# Full Methodology
 
 The full methodology depicts how the two proposed architectures can be used together to form a whole superior lightweight methodology capable of performing segmentation, localization, super-resolution and enhancing classification.  
 
