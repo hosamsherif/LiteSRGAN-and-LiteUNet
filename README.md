@@ -5,8 +5,8 @@
 
 # Lite-SRGAN
 <p float="left">
-  <img src="images/LiteSRGAN_inference_1.gif" width=500 />
-  <img src="images/LiteSRGAN_inference_2.gif" width=500 />
+  <img src="images/LiteSRGAN_inference_1.gif" width=400 />
+  <img src="images/LiteSRGAN_inference_2.gif" width=400 />
   </p>
 
 
